@@ -1,0 +1,61 @@
+.INavDashboard{
+    margin-top: .5%;
+    margin-left: 2%;
+    font-size: 30px;
+    color:#386aff;
+  }
+  .INavDashfeature{
+    margin-left: -9.7%;
+    margin-top: 3.5%;
+  }
+  .IMfgdate{
+    margin-left: 21px;
+  }
+  .IExpdate{
+    margin-left: 40px;
+  }
+  .IFname{
+    display: flex;
+  }
+  .IDesc{
+    width: 258px;
+  }
+  .ITrow{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .IFrow{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 10px;
+  }
+  .Iimg{
+    color: #a9a9a9;
+    margin-top: 2.8%;
+    margin-left: 35px;
+    font-size: larger;
+  }
+  #img{
+    color: #a9a9a9;
+    font-size: larger;
+    margin-left: 30px;
+    
+  }
+  .ISubmitBtn{
+    margin-top: 40px;
+  margin-left: 35%;
+  margin-bottom: 30px;
+  }
+  #img:hover{
+    cursor: pointer;
+  }
+  #Iicon{
+    margin-left: 25px;
+  }
+  #Iicon:hover{
+    cursor: pointer;
+  }
+  /* .CData{
+    margin-left: 10%;
+  } */

@@ -1,0 +1,299 @@
+*{
+  font-family: 'Josefin Sans', sans-serif;
+}
+.PMainNavbar{
+  display: flex;
+  width: 100vw;
+  position: absolute;
+  z-index: 15;
+  height: 64px;
+  background-color: #3366ff;
+  box-shadow: 0px 3px 3px -2px rgba(17, 8, 8, 0.2),
+  0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+}
+
+.PMainBody{
+  display: flex;
+  margin-left: -10px;
+  
+}
+.PMainSidebar{
+  z-index: 10;
+  width: 280px;
+  min-height: 99vh;
+  box-shadow: 5px 5px 5px rgb(68 68 68 / 0.6);
+  
+  /* box-shadow:  1200px 0 0 5 rgba(17, 8, 8, 0.2); */    
+}
+.PSideBarData{
+  margin-top: 80px;
+  font-size: large;
+}
+.PSidebarList{
+  margin-top: 40%;
+}
+
+/* .MedicineAvailability{
+  margin-top: 500px;
+  width: 50px;
+  height: 50px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+} */
+
+.PRowData{
+  margin-left: 10%;
+  display: flex;
+  top: 500px;
+  margin-top: 20px;
+  height: 53px;
+  width: 240px;
+  padding-top: 5%;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.643em;
+  font-size: large;
+
+}
+.PRowData:hover{
+  background-color: #e3f2fd;
+  color: #386aff;
+  cursor: pointer;
+ 
+}
+
+.PSideBarData  #active{
+  background-color: #e3f2fd;
+  color: #386aff; 
+  /* padding-bottom: 20px;    */
+}
+
+
+.PMainData{
+  z-index: 5;
+  width: 1260px;
+  background-color: #f0f2f8;
+}
+#PIconForSidebar{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+
+.PNavBarForMainData{
+  display: flex;
+  margin-top: 5.2%;
+  width: 1265px;
+  height: 80px;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.3);
+}
+
+#PNavBarIcon{
+  margin-top: 1.5%;
+  font-size: 40px;
+  margin-left: 4.5%;
+  color: #386aff;
+}
+
+.PNavDashboard{
+  margin-top: .5%;
+  margin-left: 2%;
+  font-size: 30px;
+  color:#386aff;
+}
+.PNavDashfeature{
+  margin-left: -7.6%;
+  margin-top: 3.5%;
+}
+
+.PMainBox{
+  display: flex;
+  margin-left: 5%;
+  margin-top: 5%;
+  
+}
+.Frow{
+  display: flex;
+}
+.Fname{
+   margin: 20px 20px 20px 20px;
+}
+.Srow{
+  display: flex;
+ }
+ .Email{
+  margin-top: 20px;
+  width: 485px;
+ }
+ .Trow{
+  display: flex;
+ }
+ .Frow{
+  display: flex;
+ }
+ .Firow{
+  display: flex;
+ }
+ .Mname{
+  margin-top: 22px;
+  margin-left: 140px;
+ }
+ .Sbtn{
+  width: 200px;
+  height: 50px;
+  border: none;
+  background-color: #3366ff;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+
+ }
+ .Sbtn:hover{
+  cursor: pointer;
+  transform: scale(0.9);
+ }
+ .SubmitBtn{
+  margin-top: 20px;
+  margin-left: 35%;
+  margin-bottom: 30px;
+}
+.AddPBtn{
+  width: 150px;
+  height: 50px;
+  margin-top: 2%;
+  margin-left: 3%;
+  background-color: #3366ff;
+  color: white;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.AddPBtn:hover{
+  cursor: pointer;
+  transform: scale(0.9);
+}
+.DisplayP{
+  position: fixed;
+  height: 39vw;
+  width: 100vw;
+  margin-top: 3%;
+  background-color: white;
+  
+  /* margin-top: 3%;
+  margin-left: 40px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+
+}
+/* .Ptable{
+  border: 1px solid black;
+  margin-left: 4%;
+  margin-top: 4%;
+} */
+#Gender{
+  border: 1px solid green;
+}
+.Bdate{
+  border: 1px solid #c4c4c4;
+  width: 225px;
+  height: 56px;
+  margin-top: -10%;
+}
+.PBdate{
+  margin-top: -10px;
+}
+/* 
+table:hover{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+} */
+
+table {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+  /* margin: 5rem auto; */
+  margin-top: 3%;
+  margin-left: 3%;
+  /* border-radius: 2rem; */
+  /* border: 1rem hidden #443C68; */
+  /* border-collapse: collapse; */
+  /* box-shadow: 0 0 0 1px black; */
+  font-weight: normal;
+  overflow: hidden;
+  max-width: 80rem;
+}
+
+li, p, a, td{
+  font-weight: normal;
+
+
+  /* font-size: 1rem; */
+  /* line-height: 1.6; */
+}
+
+thead {
+  /* font-size: 1.1rem; */
+  font-weight: normal;
+
+  background-color: #3366ff;
+  color: #fff;
+}
+
+th,
+td {
+  /* border: 1px solid #443C68; */
+  min-width: 148px;
+  padding: 1rem;
+  font-weight: normal;
+
+  /* line-height: 1.7; */
+}
+
+td {
+  /* font-size: 1.4rem; */
+  border: 1px solid black;
+  font-weight: normal;
+}
+.Paction{
+  display: flex;
+}
+.PDelete{
+  margin-left: 30%;
+}
+#deleteicon{
+  color: red;
+}
+#deleteicon:hover{
+  cursor: pointer;
+}
+.Active{
+  padding-left: 7px;
+  width: 60px;
+  height: 25px;
+  background-color: #39FF14;
+  border: 1px solid #39FF14;
+  border-radius: 10px;
+}
+
+.PSearch{
+  margin-top: 30px;
+  margin-left: 45px;
+}
+.PatientABtn{
+  margin-top: -55px;
+  margin-left: 900px;
+
+}
+.AddData{
+  margin-left: 20px;
+}
+.M{
+  margin-bottom: 10px;
+}
+.PHM{
+  width: 90px;
+  margin-top: -15px;
+margin-left: 80px;
+color: white;
+}

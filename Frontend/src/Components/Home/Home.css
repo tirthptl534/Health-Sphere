@@ -1,0 +1,121 @@
+*{
+        font-family: 'Josefin Sans', sans-serif;
+}
+.home{
+        min-height: 100%;
+        min-width: 100%;
+        background-image: url('../../Assests/banner-bg.jpg');
+        position: fixed;
+        background-repeat: no-repeat;
+        
+}
+.Nav{
+        display: flex;
+        margin-top: 3.5%;
+        width: 50%;
+        margin-left: 65%;
+        font-size: larger;
+        /* font-family: cera-round-pro, "Helvetica Neue", "Helvetica", "Arial", sans-serif; */
+        font-family: 'Josefin Sans', sans-serif;
+
+        font-weight: bolder;
+}
+.DocLog{
+        margin-left: 28px;
+        cursor: pointer;
+        text-decoration: none;
+        color: #000;
+        
+}
+.DocLog:hover{
+        color: #33363D;
+}
+.PatientLog{
+        cursor: pointer;
+        text-decoration: none;
+        color:  #000;
+        margin-left: 5%;
+}
+.PatientLog:hover{
+        color: #33363D;
+}
+
+
+        /* .left-sec h2{
+        font-size: 20px;
+        text-transform: capitalize;
+        font-weight: lighter;
+        color: #242424;
+        margin-top: 50%;
+        font-family: 'Josefin Sans', sans-serif;
+       }
+       
+       .left-sec h1{
+        font-size: 55px;
+        text-transform: capitalize;
+        font-weight: 700;
+        margin: 15px 0;
+        font-family: 'Josefin Sans', sans-serif;
+       }
+       
+       .left-sec p{
+        margin-bottom: 20px;
+        font-family: 'Josefin Sans', sans-serif;
+       }
+        */
+        .top{
+                font-family: 'Josefin Sans', sans-serif;
+                margin-top: 5%;
+                margin-left: 2%;
+                font-size: 45px;
+                font-weight: bold;
+
+        }
+.mid{
+        margin-top: 23%;
+        margin-left: 2%;
+}
+.exe{
+        margin-top: 20px;
+}
+        
+.text1{
+        font-weight: lighter;
+        text-transform: capitalize;
+        font-family: 'Josefin Sans', sans-serif;
+        color: #242424;
+
+
+
+}
+.text2{
+        text-transform: capitalize;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+        margin: 15px 0;
+        font-size: 55px;
+
+
+}
+.text3{
+        font-family: 'Josefin Sans', sans-serif;
+
+}
+.Admin{
+        margin-right: 20px;
+        cursor: pointer;
+        text-decoration: none;
+        color: #000;
+}
+.Admin:hover{
+        color: #33363D;
+}
+.HM1{
+         /* width: 350px;
+        height: 350px;  */
+        /* margin-top: -10px; */
+        margin-top: -110px;
+        margin-left: 10px;
+        width: 200px;
+        height: 200px;
+}

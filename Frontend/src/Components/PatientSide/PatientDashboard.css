@@ -1,0 +1,73 @@
+.PMainDiv{
+   
+    max-width: 100vw;
+}
+.MainOutDiv{
+    border-radius: 40px;
+    display: flex;
+    margin: 40px 20px 20px 50px;
+    width: 500px;
+    height: 275px;
+    background-color: white;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.MainOutDiv:hover{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        cursor: pointer;
+}
+.PRightData{
+    margin-left: 50px;
+}
+.PDimg{
+    border-radius:100% ;
+    width: 200px;
+    height: 200px;
+    /* border: 7px solid #3366ff; */
+}
+.PDimg:hover{
+    transform: scale(0.9);
+}
+.Dimg{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.Dname{
+    margin-top: 20%;
+}
+.Dspeciality{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.DFee{
+    margin-bottom:10% ;
+}
+.PPBtn{
+    margin-top: 4%;
+    border: none;
+    background-color: #3366ff;
+    color: white;
+    width: 120px;
+    height: 50px;
+}
+.PPBtn:hover{
+    transform: scale(0.8);
+}
+.PC{
+    width: 295px;
+}
+.PCR{
+    width: 295px;
+    margin-left: 130px;
+    margin-top: 20px;
+
+}
+.PDoctor{
+    margin-top: -20px;
+    margin-left: 35%;
+    font-size: smaller;
+    margin-bottom: 50px;
+}
+/* .Admin{
+    color: #3366ff;
+} */

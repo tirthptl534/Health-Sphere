@@ -1,0 +1,144 @@
+ /* .Ddata{
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 1200px;
+    height: 579px;
+    border: 1px solid black;
+
+}  */
+ .Ddata{
+    position: fixed;
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 1200px;
+    height: 579px;
+    background-color: white;
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+} 
+.DCstatus{
+    margin-top: 2%;
+    margin-left: 2%
+}
+.DStatus{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.LC{
+    width: 260px;
+}
+#LApprove{
+    font-size: 25px;
+    color: #07bc0c;
+    margin-right: 20px;
+}
+#LDecline{
+    font-size: 25px;
+    margin-right: 20px;
+    color: red;
+}
+.PSendP{
+    font-size: larger;
+    margin-left: 60px;
+    margin-top: 45px;
+}
+#LPending{
+    color:yellow;
+    font-size: 25px;
+    margin-right: 20px;
+    height: 20px;
+    width: 20px;
+}
+.PSelectP{
+    margin-top: 20px;
+    margin-left: -15px;
+}
+.PSbtn{
+    height: 60px;
+    width: 200px;
+    margin-top: 100px;
+    color: white;
+    background-color: #3366ff;
+    border: none;
+    margin-left:450px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.PSbtn:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.PDesc{
+    margin-left: -10px;
+    margin-top: 20px;
+}
+.P{
+    width: 540px;
+}
+.AppFeature{
+    margin-top: 49px;
+    margin-left: -175px;
+}
+.PFeature{
+    margin-top: 4%;
+    margin-left: -12.2%;
+}
+.DLeave{
+    margin-top: 3.8%;
+    margin-left: -11.8%;
+}
+.PBtn{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.DAPP{
+    height: 40px;
+    border: none;
+    background-color: #30ed36;
+    color: white;
+}
+.DReject{
+    height: 40px;
+    margin-left: 15px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+.DReject:hover , .DAPP:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+#Profile{
+    display: flex;
+    color: white;
+    margin-top: -20px;
+    float: right;
+    margin-right: 50px;
+    font-size: 500px;
+}
+#Profile:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+.Mar{
+    color: white;
+    
+    /* margin-top: 25px; */
+    font-size: larger;
+}
+
+.HM{
+    color: white;
+    width: 98px;
+    height: 95px;
+    margin-top: -9px; 
+}
+.MMM{
+    width: 98px;
+    height: 95px;
+    margin-top: -15px;
+    margin-left: 60px;
+}

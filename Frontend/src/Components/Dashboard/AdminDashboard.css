@@ -1,0 +1,293 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.MainNavbar{
+    display: flex;
+    width: 100vw;
+    position: absolute;
+    z-index: 15;
+    height: 64px;
+    background-color: #3366ff;
+    box-shadow: 0px 3px 3px -2px rgba(17, 8, 8, 0.2),
+		0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+}
+
+.MainBody{
+    display: flex;
+    margin-left: -10px;
+    
+}
+.MainSidebar{
+    z-index: 10;
+    width: 280px;
+    min-height: 99vh;
+    box-shadow: 5px 5px 5px rgb(68 68 68 / 0.6);
+    
+    /* box-shadow:  1200px 0 0 5 rgba(17, 8, 8, 0.2); */    
+}
+.SideBarData{
+    margin-top: 80px;
+    font-size: large;
+}
+.SidebarList{
+    margin-top: 40%;
+}
+
+/* .MedicineAvailability{
+    margin-top: 500px;
+    width: 50px;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+} */
+
+.RowData{
+    margin-left: 10%;
+    display: flex;
+    top: 500px;
+    margin-top: 20px;
+    height: 53px;
+    width: 240px;
+    padding-top: 5%;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.643em;
+    font-size: large;
+
+}
+.RowData:hover{
+    background-color: #e3f2fd;
+    color: #386aff;
+    cursor: pointer;
+}
+
+.SideBarData  #active{
+    background-color: #e3f2fd;
+    color: #386aff; 
+    padding-bottom: 20px;   
+}
+
+
+.MainData{
+    z-index: 5;
+     width: 1260px;
+    background-color: #f0f2f8;
+   
+}
+#IconForSidebar{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.NavBarForMainData{
+    display: flex;
+    margin-top: 5.2%;
+    width: 1265px;
+    height: 80px;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.3);
+}
+
+#NavBarIcon{
+    margin-top: 1.5%;
+    font-size: 40px;
+    margin-left: 4.5%;
+    color: #386aff;
+}
+
+.NavDashboard{
+    margin-top: .5%;
+    margin-left: 2%;
+    font-size: 30px;
+    color:#386aff;
+}
+.NavDashfeature{
+    margin-left: -11.5%;
+    margin-top: 3.5%;
+}
+
+.MainBox{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.SubBox{
+    /* border-radius: 8%; */
+    padding-top: 10px;
+    padding-left: 20px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    background-color: #3366ff;
+    display: flex;
+    width: 400px;
+    height: 120px;
+    margin-left: 10px;
+    color: white;
+}
+.LeftSubbox{
+    width: fit-content;
+   font-size: 25px;
+   margin-top: 20px;
+}
+.TextInSubbox{
+    margin-top: 20px;
+    width: 300px;
+}
+.NumberInSubbox{
+    margin-top: 19px;
+   margin-left: 30px;
+    font-size: 80px;
+}
+
+
+#RightColumn{
+    margin-left: 200px;
+}
+.row2{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.Sliding{
+    margin-left: 200px;
+    margin-top: 15px;
+    width: 900px;
+
+    /* border: 1px solid black; */
+}
+.MCol{
+    color: #e3f2fd;
+    font-size: 28px;
+    /* font-weight: bold; */
+    
+}
+#ProfilePic{
+    z-index: 200;
+    position: fixed;
+    color: #e3f2fd;
+    font-size:35px;
+    margin-top: 12px;
+     margin-left:  160px; 
+}
+#ProfilePic:hover{
+    cursor: pointer;
+    transform: scale(0.8);
+}
+.AdminInfo{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.LogOut{
+    width: 150px;
+    height: 50px;
+    margin-top: 4%;
+    margin-left: 40%;
+    background-color: #3366ff;
+    color: white;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 50px;
+}
+
+.Row1{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 50px;
+    
+}
+.SB1{
+    display: flex;
+    width: 400px;
+    height: 150px;
+    /* border: 1px solid black; */
+    /* background-color: #e3f2fd; */
+    background-color: white;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+
+    
+    
+}
+#TD{
+    margin-left: 20px;
+}
+
+.RData{
+    margin-top: 10px;
+    margin-left: 100px;
+    /* margin-left: 110px; */
+}
+.count{
+    font-size: 60px;
+    margin-left: 90px;
+    color: #3366ff;
+}
+.Value{
+    margin-top: -10px;
+    font-size: 18px;
+    color: #3366ff;
+}
+#TE{
+    margin-left: 10px;
+}
+#TP{
+    margin-left: 10px;
+}
+
+.Icon{
+    width: 100px;
+    height: 100px;
+    /* border: 1px solid black; */
+    border-radius: 100%;
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: #e3f2fd;
+}
+#MIcon{
+    margin-top: 30px;
+    margin-left: 25px;
+    font-size: 40px;
+    color: #3366ff;
+}
+
+
+.SB2{
+    display: flex;
+    width: 400px;
+    height: 150px;
+    /* border: 1px solid black; */
+    /* background-color: #e3f2fd; */
+    background-color: white;
+   
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-left: 100px;
+    
+}
+
+#MIcon2{
+    margin-top: 30px;
+    margin-left: 33px;
+    font-size: 40px;
+    color: #3366ff;
+}
+#MIcon3{
+    margin-top: 30px;
+    margin-left: 38px;
+    font-size: 40px;
+    color: #3366ff;
+}
+#MIcon4{
+    margin-top: 30px;
+    margin-left: 35px;
+    font-size: 40px;
+    color: #3366ff;
+}

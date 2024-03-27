@@ -1,0 +1,36 @@
+.DNavDashfeature{
+    margin-top: 45px;
+    margin-left: -90px;
+}
+.DAddress{
+    width: 210px;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.DAddWidth{
+    width: 250px;
+}
+.DSalary{
+    margin-left: 75px;
+    margin-top: 20px;
+}
+.DActive{
+    color: white;
+    border-radius: 15px;
+    padding-top: 7.5px;
+    padding-left: 13px;
+    margin-top: -10px;
+    background-color: #00ff00;
+    width: 70px;
+    height: 40px;
+}
+.DIActive{
+    width: 85px;
+    height: 40px;
+    background-color: #ff0000;
+    color: white;
+    border-radius: 15px;
+    padding-top: 7.5px;
+    padding-left: 13px;
+    margin-top: -10px;
+}

@@ -1,0 +1,24 @@
+.LeaveApproval{
+    margin-left: -80px;
+    margin-top: 45px;
+}
+.LApp{
+    border: none;
+    background-color: #30ed36;
+    color: white;
+    height: 40px;
+    width: 70px;
+    margin-bottom: 20px;
+    margin-left: -50px;
+}
+.LRej{
+    width: 70px;    
+    height: 40px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+.LApp:hover,.LRej:hover{
+    transform: scale(0.9);
+}
